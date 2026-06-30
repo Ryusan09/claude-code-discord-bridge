@@ -288,7 +288,7 @@ ccdb start --cogs-dir ./my-cogs/
 
 每个 `.py` 文件必须暴露 `async def setup(bot, runner, components)`。
 
-详见 [`examples/ebibot/`](examples/ebibot/)，包含提醒、Todoist 看门狗、自动升级和文档同步的完整实例。
+详见 [`examples/ebibot/`](../../examples/ebibot/)，包含提醒、Todoist 看门狗、自动升级和文档同步的完整实例。
 
 ---
 
@@ -534,7 +534,7 @@ uv run pytest tests/ -v --cov=claude_discord
 
 ## 实际案例
 
-**[`examples/ebibot/`](examples/ebibot/)** — 基于此框架构建的个人 Discord Bot，展示自定义 Cog 加载器：
+**[`examples/ebibot/`](../../examples/ebibot/)** — 基于此框架构建的个人 Discord Bot，展示自定义 Cog 加载器：
 
 - **ReminderCog** — `/remind HH:MM "message"` 斜杠命令 + 30 秒发送循环
 - **WatchdogCog** — Todoist 过期任务监控（30 分钟检查，每日去重，按严重程度告警）

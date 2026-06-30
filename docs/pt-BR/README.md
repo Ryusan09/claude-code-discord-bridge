@@ -453,7 +453,7 @@ O projeto começou em 2026-02-18 e continua evoluindo através de conversas iter
 
 ## Exemplo do Mundo Real
 
-**[`examples/ebibot/`](examples/ebibot/)** — Um bot pessoal do Discord construído sobre este framework, incluído diretamente neste repositório. Demonstra o carregador de Cog personalizado com:
+**[`examples/ebibot/`](../../examples/ebibot/)** — Um bot pessoal do Discord construído sobre este framework, incluído diretamente neste repositório. Demonstra o carregador de Cog personalizado com:
 
 - **ReminderCog** — Comando slash `/remind HH:MM "message"` + loop de envio de 30 segundos
 - **WatchdogCog** — Monitor de tarefas vencidas do Todoist

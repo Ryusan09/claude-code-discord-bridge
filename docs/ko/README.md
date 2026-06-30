@@ -451,7 +451,7 @@ uv run pytest tests/ -v --cov=claude_discord
 
 ## 실제 예시
 
-**[`examples/ebibot/`](examples/ebibot/)** — 이 프레임워크 위에 구축된 개인 Discord 봇으로, 커스텀 Cog 로더를 시연합니다:
+**[`examples/ebibot/`](../../examples/ebibot/)** — 이 프레임워크 위에 구축된 개인 Discord 봇으로, 커스텀 Cog 로더를 시연합니다:
 
 - **ReminderCog** — `/remind HH:MM "message"` 슬래시 명령 + 30초 전송 루프
 - **WatchdogCog** — Todoist 기한 초과 작업 모니터

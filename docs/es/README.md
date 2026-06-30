@@ -455,7 +455,7 @@ El proyecto comenzó el 2026-02-18 y continúa evolucionando a través de conver
 
 ## Ejemplo del Mundo Real
 
-**[`examples/ebibot/`](examples/ebibot/)** — Un bot personal de Discord construido sobre este framework, incluido directamente en este repositorio. Demuestra el cargador de Cogs personalizado con:
+**[`examples/ebibot/`](../../examples/ebibot/)** — Un bot personal de Discord construido sobre este framework, incluido directamente en este repositorio. Demuestra el cargador de Cogs personalizado con:
 
 - **ReminderCog** — Comando slash `/remind HH:MM "mensaje"` + bucle de envío de 30 segundos
 - **WatchdogCog** — Monitor de tareas vencidas de Todoist
